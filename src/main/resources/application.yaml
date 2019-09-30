@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: zuul-demo
+
+server:
+  port: 8081

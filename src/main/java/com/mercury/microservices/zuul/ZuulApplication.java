@@ -2,6 +2,8 @@ package com.mercury.microservices.zuul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @author stanley
@@ -9,6 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
+@EnableZuulProxy
+@ComponentScan(value = "com.mercury.microservices.zuul.filter")
 public class ZuulApplication {
 
     public static void main(String args[]) {

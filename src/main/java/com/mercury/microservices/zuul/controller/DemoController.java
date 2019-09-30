@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @author stanley
  * @create 2019/9/30 23:04
  */
-
 @RestController
+@RequestMapping("/demo")
 public class DemoController {
 
     @RequestMapping(value = "/available")

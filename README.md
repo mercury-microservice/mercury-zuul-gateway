@@ -1,3 +1,3 @@
-## Zuul Demo  
+## Mercury Zuul Gateway
 
-用来实验微服务容器化的Demo项目
+Mercury网关

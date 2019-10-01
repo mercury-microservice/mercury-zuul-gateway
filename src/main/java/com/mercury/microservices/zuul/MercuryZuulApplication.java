@@ -13,9 +13,9 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableZuulProxy
 @ComponentScan(value = "com.mercury.microservices.zuul.filter")
-public class ZuulApplication {
+public class MercuryZuulApplication {
 
     public static void main(String args[]) {
-        SpringApplication.run(ZuulApplication.class, args);
+        SpringApplication.run(MercuryZuulApplication.class, args);
     }
 }
